@@ -1,10 +1,4 @@
-#### 1.字符串转换为整型
-字符串转换为整型，要注意特殊符号的问题：
-> * "-12",前面的'-'要注意，当然也有可能是'+'
-> * 剔掉字符串中的空格
-> * "1234",字符串是从左向右开始，但是整型值确实左边最大，右边最小。
 
-```
 class MyAtoi {
     public int str2Int(String str) {
         int index = 0, sign = 1, total = 0;
@@ -36,6 +30,3 @@ class MyAtoi {
         return total * sign;
     }
 }
-```
-
-
