@@ -1,7 +1,7 @@
 
 import java.util.Stack;
 
-class Solution_2 {
+class Solution_002 {
 
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();

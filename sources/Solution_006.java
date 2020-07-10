@@ -1,4 +1,4 @@
-class Solution_6 {
+class Solution_006 {
     int s;
 
     public int mySqrt(int x) {

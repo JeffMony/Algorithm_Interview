@@ -1,5 +1,5 @@
 
-class Solution_3 {
+class Solution_003 {
     public String toLowerCase(String str) {
         if (str == null || "".equals(str)) {
             return str;

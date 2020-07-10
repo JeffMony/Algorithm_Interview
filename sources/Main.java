@@ -2,8 +2,8 @@
 
 public class Main {
     public static void main(String[] args) {
-        Solution_9 instance = new Solution_9();
-        int[] arr = new int[]{2,5,6,0,0,1,2};
-        System.out.println(instance.search(arr, 3));
+        Solution_010 instance = new Solution_010();
+        int[] arr = new int[]{3,4,5,1,2};
+        System.out.println(instance.findMin(arr));
     }
 }

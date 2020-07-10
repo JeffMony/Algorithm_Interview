@@ -1,5 +1,5 @@
 
-class Solution_7 {
+class Solution_007 {
     public boolean isPerfectSquare(int num) {
         int sqrtNum = mySqrt(num);
         if ((sqrtNum * sqrtNum == num) || (sqrtNum* sqrtNum + 2*sqrtNum +1== num)) {

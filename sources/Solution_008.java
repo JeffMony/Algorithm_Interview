@@ -1,4 +1,4 @@
-class Solution_8 {
+class Solution_008 {
     public int search(int[] nums, int target) {
         int low = 0;
         int high = nums.length - 1;

@@ -1,4 +1,4 @@
-class Solution_9 {
+class Solution_009 {
     public boolean search(int[] nums, int target) {
         int low = 0;
         int high = nums.length - 1;

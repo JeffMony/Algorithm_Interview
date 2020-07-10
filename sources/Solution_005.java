@@ -1,5 +1,5 @@
 
-class Solution_5 {
+class Solution_005 {
     public boolean isAnagram(String s, String t) {
         int[] bucket = new int[26];
         char[] arr1 = s.toCharArray();

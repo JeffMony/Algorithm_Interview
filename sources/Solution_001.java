@@ -1,5 +1,5 @@
 
-class Solution_1 {
+class Solution_001 {
     
     public int maxArea(int[] height) {
         if (height.length < 1) {
