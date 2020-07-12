@@ -2,12 +2,11 @@
 
 public class Main {
     public static void main(String[] args) {
-        Solution_020 instance = new Solution_020();
-        int[] arr = new int[]{1,2};
-        int k = 2;
-        instance.rotate(arr, k);
-        for (int i : arr) {
-            System.out.println(i);
+        Solution_022 instance = new Solution_022();
+        int[] arr = new int[]{9,8,7,6,5,4,3,2,1,0};
+        int[] res = instance.plusOne(arr);
+        for(int i = 0; i < res.length; i++) {
+            System.out.println(res[i]);
         }
     }
 }
