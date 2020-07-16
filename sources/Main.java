@@ -2,7 +2,10 @@
 
 public class Main {
     public static void main(String[] args) {
-        Solution_029 instance = new Solution_029();
-        System.out.println(instance.nthUglyNumber(10));
+        Solution_032 instance = new Solution_032();
+        java.util.List<String> res = instance.generateParenthesis(3);
+        for(String str : res) {
+            System.out.println(str);
+        }
     }
 }
