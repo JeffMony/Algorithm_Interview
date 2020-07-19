@@ -1,9 +1,12 @@
-
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Solution_040 instance = new Solution_040();
-        int[] arr = new int[]{4,5,4};
-        System.out.println(instance.majorityElement(arr));
+        Solution_044 instance = new Solution_044();
+        int[] nums = new int[]{1,2,3};
+        List<List<Integer>> res = instance.permute(nums);
+        for(List<Integer> list : res) {
+            System.out.println(list);
+        }
     }
 }
