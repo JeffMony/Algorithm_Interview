@@ -9,7 +9,6 @@ class Solution_063 {
             res.add(new ArrayList<>());
         }
         for(i = 0; i < numRows; i++) {
-            System.out.print(1);
             res.get(i).add(1);
             if (i >= 2) {
                 List<Integer> temp = res.get(i-1);
